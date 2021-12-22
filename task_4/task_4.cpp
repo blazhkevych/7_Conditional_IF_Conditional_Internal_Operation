@@ -20,7 +20,12 @@ int main()
 	cout << "Введите b: " << endl;
 	cin >> b;
 
-
+	if (a > b)
+		cout << "x = " << b - 5 * a << endl;
+	else if (a == b)
+		cout << "x = " << (5 - b) / a << endl;
+	else if (a < b)
+		cout << "x = " << (a - 5) / b << endl;
 
 	return 0;
 }
